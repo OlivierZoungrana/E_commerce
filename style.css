@@ -1,0 +1,837 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+  @media screen and (min-width: 320px) and (max-width: 480px){
+
+
+    header{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background-color:rgb(241, 246, 250);
+        justify-content: space-around;
+        position: fixed;
+    }
+    
+
+    nav{
+
+        display: none;
+    }
+
+    nav li{
+
+        display: block;
+        position: relative;
+       
+    }
+
+    nav.is-visible {
+        display: block;
+        position: absolute;
+        top: 100px;
+        width: 100%;
+      }
+      nav ul li a{
+
+        text-decoration: none;
+        list-style: none;
+        font-size: 20px;
+       
+       }
+       
+       nav ul li{
+       
+         display: inline;
+         padding: 0 50px;
+         position: relative;
+         top: 50px;
+       }
+       
+       .logo{
+       
+         width: 150px;
+         height: 100px;
+       }
+       
+
+      nav a {
+        display: block;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        padding: 5px 0;
+        font-size: 1.2em;
+        position: relative;
+        top: -60px;
+      }
+
+    #toogle_btn {
+        height: 30px;
+        width: 30px;
+        position: relative;
+        float: right;
+        margin-right: 10px;
+        margin-top: 5px;
+        cursor: pointer;
+      }
+    
+      #toogle_btn span {
+        height: 3px;
+        background-color: rgb(37, 30, 21);
+        width: 100%;
+        position: absolute;
+        top: 20px;
+        left: 0;
+      }
+    
+      #toogle_btn span::before {
+        content: "";
+        height: 3px;
+        background-color: rgb(48, 43, 37);
+        width: 100%;
+        position: absolute;
+        top: -10px;
+        left: 0;
+      }
+    
+      #toogle_btn span::after {
+        content: "";
+        height: 3px;
+        background-color: rgb(41, 34, 25);
+        width: 100%;
+        position: absolute;
+        top: 10px;
+        left: 0;
+      }
+    
+    .is-visible{
+    
+      position: absolute;
+      height: 200px;
+      width: 100%;
+      top: 200px;
+      left: 5px;
+      background-color:#0e0708;
+     }
+
+     figure{
+      width: 100%;
+      height: 300px;
+      background-image: url('./gpa-sneakers.jpg');
+      max-width: auto;
+      max-height: auto;
+    }
+    
+    figure h2{
+    
+      color:rgb(66, 78, 184);
+      text-align: center;
+      font-size: 30px;
+      font-family: 'Oswald', sans-serif;
+      position: relative;
+      top: 150px;
+      font-weight: bold;
+  
+    }
+
+
+     #produits{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        position: relative;
+        top: 100px;
+       
+    }
+
+  
+
+    .menu{
+      width: 300px;
+      height: 500px;
+      position: relative;
+      top: -50px;
+    
+    }
+    
+    .menu ul li {
+    
+      list-style: none;
+      margin: 30px;
+      
+    }
+    
+    .menu ul li a{
+      text-decoration: none;
+      font-size: 20px;
+    }
+    
+    .presentation{
+      border: 1px solid black;
+      margin: 0 50px;
+      padding: 0 15px;
+      position: relative;
+      top: 10px;
+      padding-top: 10px;
+      border-radius: 2px;
+    
+    }
+    
+    .menu ul li{
+    
+     padding:  40px;
+    }
+    
+    .menu ul{
+      display:block;
+    }
+    
+
+    .presentation{
+        border: 1px solid black;
+        margin: 0 20px;
+        padding: 0 10px;
+        position: relative;
+        top: -5px;
+        padding-top: 10px;
+        border-radius: 2px;
+   
+    }
+    
+
+    .boutique{
+        width: 100%;
+        height: 500px;
+        position: relative;
+      
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        top: 30px;
+      }
+
+      div.produit {
+        border: 1px solid #eee;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(56, 107, 107);
+      }
+
+      footer{
+        display: flex;
+        position: relative;
+        top: 1150px;
+        width: 100%;
+        height: 100px;
+        background-color: #27ae60;
+    }
+
+    img {
+      width: 100px;
+      height: 70px;
+    }
+    
+    h3 {
+      font-size: 1.5em;
+    }
+    h4 {
+      font-weight: normal;
+    }
+
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 768px){
+
+    header{
+      display: flex;
+      width: 100%;
+      height: 100px;
+      background-color:rgb(241, 246, 250);
+      justify-content: space-around;
+      position: fixed;
+  }
+  
+
+  nav{
+
+      display: none;
+  }
+
+  nav li{
+
+      display: block;
+      position: relative;
+     
+  }
+
+  nav.is-visible {
+      display: block;
+      position: absolute;
+      top: 100px;
+      width: 100%;
+    }
+
+    nav ul li a{
+
+      text-decoration: none;
+      list-style: none;
+      font-size: 20px;
+     
+     }
+     
+     nav ul li{
+     
+       display: inline;
+       padding: 0 50px;
+       position: relative;
+       top: 50px;
+     }
+     
+     .logo{
+     
+       width: 150px;
+       height: 100px;
+     }
+     
+    nav a {
+      display: block;
+      text-decoration: none;
+      font-family: "Montserrat", sans-serif;
+      padding: 5px 0;
+      font-size: 1.2em;
+      position: relative;
+      top: -60px;
+    }
+
+  #toogle_btn {
+      height: 30px;
+      width: 30px;
+      position: relative;
+      float: right;
+      margin-right: 10px;
+      margin-top: 5px;
+      cursor: pointer;
+    }
+  
+    #toogle_btn span {
+      height: 3px;
+      background-color: rgb(37, 30, 21);
+      width: 100%;
+      position: absolute;
+      top: 20px;
+      left: 0;
+    }
+  
+    #toogle_btn span::before {
+      content: "";
+      height: 3px;
+      background-color: rgb(48, 43, 37);
+      width: 100%;
+      position: absolute;
+      top: -10px;
+      left: 0;
+    }
+  
+    #toogle_btn span::after {
+      content: "";
+      height: 3px;
+      background-color: rgb(41, 34, 25);
+      width: 100%;
+      position: absolute;
+      top: 10px;
+      left: 0;
+    }
+  
+  .is-visible{
+  
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top: 200px;
+    background-color:rgb(40, 112, 172);
+  
+   }
+
+   figure{
+    width: 100%;
+    height: 300px;
+    background-image: url('./gpa-sneakers.jpg');
+    max-width: auto;
+    max-height: auto;
+    
+  }
+  
+  figure h2{
+  
+    color:rgb(66, 78, 184);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    top: 150px;
+    font-weight: bold;
+
+  }
+
+ 
+
+
+   #produits{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 500px;
+      position: relative;
+      top: 100px;
+     
+  }
+
+  .menu{
+      width:100%;
+      height: 1200px;
+      position: relative;
+      top: -80px;
+ 
+  }
+
+
+  .menu ul li {
+  
+    list-style: none;
+    margin: 30px;
+    
+  }
+  
+  .menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .presentation{
+    border: 1px solid black;
+    margin: 0 50px;
+    padding: 0 15px;
+    position: relative;
+    top: 10px;
+    padding-top: 10px;
+    border-radius: 2px;
+  
+  }
+  
+  .menu ul li{
+  
+   padding:  40px;
+  }
+  
+  .menu ul{
+    display:block;
+  }
+  
+
+  .presentation{
+      border: 1px solid black;
+      margin: 0 20px;
+      padding: 0 10px;
+      position: relative;
+      top: -5px;
+      padding-top: 10px;
+      border-radius: 2px;
+ 
+  }
+  
+
+  .boutique{
+      width: 100%;
+      height: 500px;
+      position: relative;
+    
+  }
+  
+  .container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      position: relative;
+      top: 30px;
+    }
+
+    div.produit {
+      border: 1px solid #eee;
+      width: 100%;
+      height: auto;
+      padding: 10px;
+      text-align: center;
+      background-color: rgb(56, 107, 107);
+    }
+
+    footer{
+      display: flex;
+      position: relative;
+      top: 1150px;
+      width: 100%;
+      height: 150px;
+      background-color: #2980b9;
+  }
+  img {
+    width: 100px;
+    height: 70px;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  h4 {
+    font-weight: normal;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px ){
+  header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    background-color:rgb(241, 246, 250);
+  }
+  
+  
+  nav ul li a{
+  
+   text-decoration: none;
+   list-style: none;
+   font-size: 20px;
+  
+  }
+  
+  nav ul li{
+  
+    display: inline;
+    padding: 0 50px;
+    position: relative;
+    top: 50px;
+  }
+  
+  .logo{
+  
+    width: 150px;
+    height: 100px;
+  }
+
+  figure{
+    width: 100%;
+    height: 300px;
+    background-image: url('./gpa-sneakers.jpg');
+    max-width: auto;
+    max-height: auto;
+  }
+  
+  figure h2{
+  
+    color: rgb(66, 78, 184);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    top: 150px;
+    font-weight: bold;
+
+  }
+  
+  #produits{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .menu{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    top: 50px;
+  
+  }
+  
+  .menu ul li {
+  
+    list-style: none;
+    margin: 30px;
+    
+  }
+  
+  .menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .presentation{
+    border: 1px solid black;
+    margin: 0 50px;
+    padding: 0 15px;
+    position: relative;
+    padding-top: 10px;
+    border-radius: 2px;
+  
+  }
+  
+  .menu ul li{
+  
+   padding:  40px;
+  }
+  
+  .menu ul{
+    display:block;
+  }
+  
+  
+  
+  .boutique{
+    width: 1000px;
+    height: 500px;
+  }
+  
+
+  footer{
+    display: flex;
+    position: relative;
+    top: 300px;
+    width: 100%;
+    height: 100px;
+    background-color: #2980b9;
+  }
+  
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+  }
+  
+  div.produit {
+    border: 1px solid #eee;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+    position: relative;
+    top: -40px;
+   
+  }
+
+  div.produit :hover{
+
+    color: rgb(24, 117, 86);
+    cursor: pointer;
+    size: 25px;
+  }
+  
+  img {
+    width: 100px;
+    height: 70px;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  h4 {
+    font-weight: normal;
+  }
+  
+  
+
+}
+@media screen and (min-width: 1024px){
+
+  header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    background-color:rgb(241, 246, 250);
+  }
+  
+  
+  nav ul li a{
+  
+   text-decoration: none;
+   list-style: none;
+   font-size: 20px;
+   position: relative;
+   left: auto;
+  
+  }
+  
+  nav ul li{
+  
+    display: inline;
+    padding: 0 50px;
+    position: relative;
+    top: 50px;
+  }
+  
+  .logo{
+  
+    width: 150px;
+    height: 100px;
+  }
+
+  figure{
+    width: 100%;
+    height: 300px;
+    background-image: url('./gpa-sneakers.jpg');
+    max-width: auto;
+    max-height: auto;
+  }
+  
+  figure h2{
+  
+    color: rgb(66, 78, 184);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    top: 150px;
+    font-weight: bold;
+
+  }
+  
+  #produits{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(241, 246, 250);
+  }
+  
+  .menu{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    top: 50px;
+   
+  
+  }
+  
+  .menu ul li {
+  
+    list-style: none;
+    margin: 30px;
+    
+  }
+  
+  .menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .presentation{
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 0 50px;
+    padding: 0 15px;
+    position: relative;
+    padding-top: 10px;
+    border-radius: 2px;
+  
+  }
+  
+  .menu ul li{
+  
+   padding:  40px;
+  }
+  
+  .menu ul{
+    display:block;
+  }
+  
+  
+  
+  .boutique{
+    width: 1000px;
+    height: 500px;
+  }
+  
+  
+  footer{
+    display: flex;
+    position: relative;
+    top: 300px;
+    width: 100%;
+    height: 400px;
+    background-color:#2980b9;
+  }
+  
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+  }
+  
+  div.produit {
+    border: 1px solid #eee;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+    position: relative;
+    top: -40px;
+   
+  }
+
+  div.produit :hover{
+
+    color: rgb(24, 117, 86);
+    cursor: pointer;
+    size: 25px;
+  }
+  
+  img {
+    width: 100px;
+    height: 70px;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  h4 {
+    font-weight: normal;
+  }
+  
+  
+
+
+}
+
